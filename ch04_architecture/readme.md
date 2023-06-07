@@ -4,8 +4,8 @@
 
 ## Privileged level
 > 通过特色功能寄存器CONTROL中的nPRIV位选择
-- privileged: 可以访问MCU的所有资源
-- unprivileged：特殊寄存器及一些其他资源不能访问
+- privileged: 可以访问MCU的所有资源，一般OS kernel就在privileged lever运行
+- unprivileged：特殊寄存器及一些其他资源不能访问，一般application或者不受信任的代码就在unprivileged level运行
 
 ## Stack Pointer
 > 通过特色功能寄存器CONTROL中的SPSEL位选择
